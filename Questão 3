@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <locale.h>
+  int main(){
+  	setlocale(LC_ALL, "Portuguese_Brazil");
+  	
+  	int hora;
+  	printf("Observatório\n\n");
+  	
+  	printf("Digite que horas são: ");
+  	scanf("%d", &hora);
+  	
+  	if ( 18 <= hora < 24 ){
+  		printf("Está escuro.");
+	  }
+  	
+  	return 0;
+  }
